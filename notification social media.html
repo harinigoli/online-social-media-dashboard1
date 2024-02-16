@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Layout</title>
+</head>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+    background-color: lightcyan;
+    color: blue;
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.stories {
+  display: flex;
+}
+
+.story {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+</style>
+<body>
+  <div class="container">
+    <div class="section">
+      <h2>Requests</h2>
+      <ul class="list">
+        <li>User 1</li>
+        <li>User 2</li>
+        <li>User 3</li>
+        <!-- Add more request users here -->
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Likes</h2>
+      <ul class="list">
+        <li>Post 1</li>
+        <li>Post 2</li>
+        <li>Post 3</li>
+        <!-- Add more liked posts here -->
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Stories</h2>
+      <div class="stories">
+        <div class="story">Story 1</div>
+        <div class="story">Story 2</div>
+        <div class="story">Story 3</div>
+        <!-- Add more stories here -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
